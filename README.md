@@ -62,7 +62,8 @@ ark:
 
 Now, assuming all of that, we get something like this:
 
-|----|----|
+|      |      |
+|------|------|
 |Years after leaving ark|94|
 |Year|2276 BC|
 |Population|9184152|
