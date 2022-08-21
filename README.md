@@ -63,17 +63,17 @@ ark:
 Now, assuming all of that, we get something like this:
 
 |----|----|
-Years after leaving ark|94
-Year|2276 BC
-Population|9184152
-Living|9184152
-Girls|4775777
-Men|804748
-Women|870199
-Adults|1674947
-Pregnant women|862511
-Avg. weeks pregnant|16.726057986507
-Children|7509205
+|Years after leaving ark|94|
+|Year|2276 BC|
+|Population|9184152|
+|Living|9184152|
+|Girls|4775777|
+|Men|804748|
+|Women|870199|
+|Adults|1674947|
+|Pregnant women|862511|
+|Avg. weeks pregnant|16.726057986507|
+|Children|7509205|
 
 Point being, we get 10,000,000 people within 100 years from a population
 of eight under ideal circumstances for human birth.  So, if God did the
