@@ -17,6 +17,7 @@ minBirthAge = 728 -- They got married at 14 years (it was a long time ago)
 maxBirthAge = 2080 -- Sarah (Genesis 17:17) aside, no pregnanacy once 40
 gestationWeeks = 40 -- 38-42 weeks, we’ll make it 40
 pregnancyChance = 8 -- 8% chance of getting pregnant every week
+twinsChance = 5 -- 5% chance of having twins
 stillbirthChance = 2 -- This is per mil (not percent) chance of a pregnancy
                      -- becoming a stillbirth every week; it’s 0.2% here
 deathChance = 1 -- Every week, everyone alive has a 0.1% of dying
@@ -42,13 +43,14 @@ local function birth()
   baby.preFlood = false -- Person born after the flood, as per Gen 6:3
   baby.name = "You are number " .. tostring(#people + 1)
   baby.alive = true
+  baby.children = 0
   people[#people + 1] = baby
 end
 
 -- Show demographics
 local function report()
   print("")
-  print("Weekly demographic report")
+  print("Demographic report")
   print("")
   print("Years after leaving ark: " .. tostring(thisWeek/52))
   print("Year: " .. tostring(-2370 + (thisWeek / 52)))
@@ -61,6 +63,8 @@ local function report()
   local adults = 0
   local isPregnant = 0
   local totalWeeks = 0
+  local momCount = 0
+  local kidsTotal = 0
   for a = 1,#people do
     if people[a].alive then
       if people[a].sex == "girl" then girls = girls + 1 end
@@ -68,6 +72,10 @@ local function report()
       if people[a].weeksPregnant and people[a].weeksPregnant > 0 then
         isPregnant = isPregnant + 1
 	totalWeeks = totalWeeks + people[a].weeksPregnant
+      end
+      if people[a].children > 0 then 
+        momCount = momCount + 1 
+        kidsTotal = kidsTotal + people[a].children
       end
       if people[a].age >= minBirthAge then
         if people[a].sex == "girl" then 
@@ -87,6 +95,7 @@ local function report()
   print("Women: " .. tostring(women))
   print("Adults: " .. tostring(adults))
   print("Pregnant women: " .. tostring(isPregnant))
+  print("Children per mother: " .. tostring(kidsTotal/momCount))
   print("Avg. weeks pregnant: " .. tostring(totalWeeks / isPregnant))
   print("Children: " .. tostring(children))
 end
@@ -105,11 +114,11 @@ local function tick()
       h.weeksPregnant = h.weeksPregnant + 1
       if permil(stillbirthChance) then h.weeksPregnant = 0 -- Miscarriage
       elseif h.weeksPregnant >= gestationWeeks then 
-        birth()
-	if percent(5) then -- Twins are 2%, but 5% because of miracles
-	  birth()
+        birth() h.children = h.children + 1
+	if percent(twinsChance) then 
+	  birth() h.children = h.children + 1
 	  if percent(1) then -- Triplets!
-	    birth()
+	    birth() h.children = h.children + 1
 	  end
 	end
 	h.weeksPregnant = 0
@@ -128,68 +137,48 @@ local function tick()
     h.age = h.age + 1
   end
 end
-    
+
 -- A handful of people leave the Ark
 local function leaveArk()
-  people[1] = {}
+  for a=1,8 do
+    people[a] = {}
+    people[a].alive = true
+    people[a].preFlood = true
+    people[a].weeksPregnant = 0
+    people[a].children = 0
+  end
+
   people[1].name = "Noah"
   people[1].age = 21736 -- 418 years
   people[1].sex = "boy"
-  people[1].alive = true
-  people[1].preFlood = true
 
-  people[2] = {}
   people[2].name = "noahsWife"
   people[2].age = 5200 -- 100 years
   people[2].sex = "girl"
-  people[2].alive = true
-  people[2].weeksPregnant = 0
-  people[2].preFlood = true
 
-  people[3] = {}
   people[3].name = "shem"
   people[3].age = 5096 -- 98 years
   people[3].sex = "boy"
-  people[3].alive = true
-  people[3].preFlood = true
 
-  people[4] = {}
   people[4].name = "shemsWife"
   people[4].age = 1560 -- 30 years
   people[4].sex = "girl"
-  people[4].alive = true
-  people[4].weeksPregnant = 0
-  people[4].preFlood = true
 
-  people[5] = {}
   people[5].name = "ham"
   people[5].age = 4576 -- 88 years
   people[5].sex = "boy"
-  people[5].alive = true
-  people[5].preFlood = true
 
-  people[6] = {}
   people[6].name = "hamsWife"
   people[6].age = 1560 -- 30 years
   people[6].sex = "girl"
-  people[6].alive = true
-  people[6].weeksPregnant = 0
-  people[6].preFlood = true
 
-  people[7] = {}
   people[7].name = "japeth"
   people[7].age = 5616
   people[7].sex = "boy"
-  people[7].alive = true
-  people[7].preFlood = true
 
-  people[8] = {}
   people[8].name = "japethsWife"
   people[8].age = 1560 -- 30 years
   people[8].sex = "girl"
-  people[8].alive = true
-  people[8].weeksPregnant = 0
-  people[8].preFlood = "true"
 
 end
 
