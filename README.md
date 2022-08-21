@@ -32,7 +32,7 @@ Other discussion:
 
 >https://www.christianforums.com/threads/creationists-can-you-explain-post-flood-repopulation.1028182/
 
-# Work
+# Model 1
 
 I have written a Lua script which models population growth.  I assume
 that God does a number of miracles after Noah and his family leave the
@@ -64,19 +64,19 @@ Now, assuming all of that, we get something like this:
 
 |      |      |
 |------|------|
-|Years after leaving ark|94|
-|Year|2276 BC|
-|Population|9184152|
-|Living|9184152|
-|Girls|4775777|
-|Men|804748|
-|Women|870199|
-|Adults|1674947|
-|Pregnant women|862511|
-|Avg. weeks pregnant|16.726057986507|
-|Children|7509205|
+|Years after leaving ark|100|
+|Year|-2270|
+|Population|21507526|
+|Living|21507526|
+|Girls|11180800|
+|Men|1885216|
+|Women|2041023|
+|Adults|3926239|
+|Pregnant women|2031797|
+|Avg. weeks pregnant|15.598720246166|
+|Children|17581287|
 
-Point being, we get 10,000,000 people within 100 years from a population
+Point being, we get 21,500,000 people within 100 years from a population
 of eight under ideal circumstances for human birth.  So, if God did the
 miracle of making people as fertile as possible, and if every girl starts
 making babies at the age of 12 (yes, I know, but this was a *long time*
@@ -86,5 +86,69 @@ and the Ark inhabitants repopulating the word.
 
 Mind you, either the flood happened sooner than we think or the 
 Pyramid of Djoser (ca. 2650 BCE) was built later than we think, but we
-can have 10,000,000 people within 100 years, then they can cool off
+can have 21,500,000 people in 100 years, then they can cool off
 their birth rate and instead do things like build pyramids.
+
+# The 1971 model
+
+In 1971, the population increase rate was 2.1%, or 1.021.
+
+That in mind, let’s run the 1971 population increase rate on the
+population that leaves the ark.
+
+A 2.1% population increase means we get an 8-fold population
+increase every 100 years.  So, assuming Noah walked out of the
+ark in 2350BCE, then we would have only 64 people in 2250BCE, and
+we would have 5,444,517,870,735,015,415,413,993,718,908,291,383,296 
+people in 2050CE, so the model does not in any way reflect reality.
+There are both too few people to build the pyramids and too many people
+compared to today’s actual population with a simple exponential
+model.
+
+# The not-quite-so-hyperfertile model
+
+Let’s add death to the model (0.1% of anyone dying any given week),
+let’s make it so a married woman (14 to 40) only has an 8% chance
+of getting pregnant any given week, and a given pregnancy has a
+0.2% chance of becoming a miscarriage any given week.
+
+This is still a very hyperfertile model, but it’s one which doesn’t
+need too many miracles from God after Noah gets off of the ark.
+
+After 100 years, we get something like this:
+
+|      |      |
+|------|------|
+|Years after leaving ark|100|
+|Year|-2270|
+|Population|6148|
+|Living|3183|
+|Girls|1649|
+|Men|347|
+|Women|362|
+|Adults|709|
+|Pregnant women|251|
+|Avg. weeks pregnant|20.609561752988|
+|Children|2474|
+
+Now, after 200 years, it’s like this:
+
+|      |      |
+|------|------|
+|Years after leaving ark|200|
+|Year|-2170|
+|Population|1497724|
+|Living|770321|
+|Girls|401016|
+|Men|82588|
+|Women|89616|
+|Adults|172204|
+|Pregnant women|62069|
+|Avg. weeks pregnant|20.01662665743|
+|Children|598117|
+
+So, given *reasonable* birth and death rates, we need at least 200
+years to have enough people in the world to make the pyramids of Egypt.
+Even so, if we could build the Pyramid of Djoser with only 770,321 people
+in the world, the dating for that pyramid has to be off by 500 years *or*
+the dating we use for Noah’s ark has to be off by 500 years.
