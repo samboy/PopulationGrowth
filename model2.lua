@@ -73,10 +73,6 @@ local function report()
         isPregnant = isPregnant + 1
 	totalWeeks = totalWeeks + people[a].weeksPregnant
       end
-      if people[a].children > 0 then 
-        momCount = momCount + 1 
-        kidsTotal = kidsTotal + people[a].children
-      end
       if people[a].age >= minBirthAge then
         if people[a].sex == "girl" then 
           women = women + 1 
@@ -87,6 +83,12 @@ local function report()
 	adults = adults + 1
       end
       living = living + 1
+    else 
+      -- Not alive (makes more sense to count total lifetime children)
+      if people[a].children > 0 then 
+        momCount = momCount + 1 
+        kidsTotal = kidsTotal + people[a].children
+      end
     end
   end
   print("Living: " .. tostring(living))

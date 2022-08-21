@@ -59,7 +59,8 @@ local function report()
         isPregnant = isPregnant + 1
 	totalWeeks = totalWeeks + people[a].weeksPregnant
       end
-      if people[a].children > 0 then
+      if people[a].children > 0 and people[a].age > maxBirthAge and
+         people[a].preFlood == false then
         momCount = momCount + 1 
         kidsTotal = kidsTotal + people[a].children
       end
@@ -75,6 +76,7 @@ local function report()
       living = living + 1
     end
   end
+  if momCount == 0 then momCount = 1 end
   print("Living: " .. tostring(living))
   print("Girls: " .. tostring(girls))
   print("Men: " .. tostring(men))
