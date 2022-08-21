@@ -44,19 +44,37 @@ local function report()
   local children = 0
   local men = 0
   local women = 0
+  local living = 0
+  local adults = 0
+  local isPregnant = 0
+  local totalWeeks = 0
   for a = 1,#people do
-    if people[a].sex == "girl" then girls = girls + 1 end
-    if people[a].age < minBirthAge then children = children + 1 end
-    if people[a].age >= minBirthAge and people[a].sex == "girl" then 
-      women = women + 1 
-    end
-    if people[a].age >= minBirthAge and people[a].sex == "boy" then 
-      men = men + 1 
+    if people[a].alive then
+      if people[a].sex == "girl" then girls = girls + 1 end
+      if people[a].age < minBirthAge then children = children + 1 end
+      if people[a].weeksPregnant and people[a].weeksPregnant > 0 then
+        isPregnant = isPregnant + 1
+	totalWeeks = totalWeeks + people[a].weeksPregnant
+      end
+      if people[a].age >= minBirthAge then
+        if people[a].sex == "girl" then 
+          women = women + 1 
+        end
+        if people[a].sex == "boy" then 
+          men = men + 1 
+        end
+	adults = adults + 1
+      end
+      living = living + 1
     end
   end
+  print("Living: " .. tostring(living))
   print("Girls: " .. tostring(girls))
   print("Men: " .. tostring(men))
   print("Women: " .. tostring(women))
+  print("Adults: " .. tostring(adults))
+  print("Pregnant women: " .. tostring(isPregnant))
+  print("Avg. weeks pregnant: " .. tostring(totalWeeks / isPregnant))
   print("Children: " .. tostring(children))
 end
 
@@ -86,7 +104,7 @@ local function tick()
     if h.preFlood and h.age > preFloodDeathAge then
       h.alive = false
     end
-    if not h.preFlood and h.age > postFloodDeathAge then
+    if h.preFlood == false and h.age > postFloodDeathAge then
       h.alive = false
     end
     h.age = h.age + 1
