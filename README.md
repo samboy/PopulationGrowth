@@ -79,9 +79,10 @@ Now, assuming all of that, we get something like this:
 Point being, we get 10,000,000 people within 100 years from a population
 of eight under ideal circumstances for human birth.  So, if God did the
 miracle of making people as fertile as possible, and if every girl starts
-making babies at the age of 12 until they are 50, then we can have, say,
-enough people in Egypt to start building the pyramids within 100 years
-of the flood ending and the Ark inhabitants repopulating the word. 
+making babies at the age of 12 (yes, I know, but this was a *long time*
+ago) until they are 50, then we can have, say, enough people in Egypt 
+to start building the pyramids within 100 years of the flood ending 
+and the Ark inhabitants repopulating the word. 
 
 Mind you, either the flood happened sooner than we think or the 
 Pyramid of Djoser (ca. 2650 BCE) was built later than we think, but we
