@@ -32,6 +32,8 @@ Other discussion:
 
 >https://www.christianforums.com/threads/creationists-can-you-explain-post-flood-repopulation.1028182/
 
+>https://www.christianforums.com/threads/creationists-can-you-explain-post-flood-repopulation-2.7879438/
+
 # Model 1
 
 I have written a Lua script which models population growth.  I assume
