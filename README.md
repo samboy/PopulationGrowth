@@ -50,7 +50,7 @@ ark:
   becomes pregnant again.
 * Every woman can become pregnant until they turn 50.  Indeed, every woman
   is constantly pregnant and gives birth every nine months from the ages of
-  12 until they are 50.  In other words, every woman has 13, often times
+  12 until they are 50.  In other words, every woman has 55, often times
   more (twins!), children.
 * There are no stillbirths, every girl lives until they are child bearing
   age (indeed, until they are 120), and every girl becomes a baby making 
