@@ -26,3 +26,6 @@ They didn’t show us their homework, of course:
 So, that in mind, can I update the May 2004 model here in 2022 to
 see how feasible populating the world is post-Ark.
 
+Other discussion:
+
+>https://www.christianforums.com/threads/creationists-can-you-explain-post-flood-repopulation.1028182/
