@@ -63,6 +63,13 @@ ark:
   we do not approximate but create an entire simulated population.
 * 52% of new births are women.  This is higher than real numbers, but God
   is performing a bunch of miracles with the ancient people.
+* [Women do not ovulate when breast feeding](https://www.bbc.com/future/article/20151020-did-one-woman-really-give-birth-to-69-children), so it takes
+  *another* miracle for a woman to immediately become pregnant after 
+  birth.  Also, from that same article: It becomes a lot harder to
+  become pregnant once a woman becomes 40 or so.
+* There is no effort to address having enough food to feed this entire 
+  population (in a world decimated by a global flood to boot).  Perhaps
+  God dropped Manna from heaven.
 
 Now, assuming all of that, we get something like this:
 
@@ -86,7 +93,7 @@ miracle of making people as fertile as possible, and if every girl starts
 making babies at the age of 12 (yes, I know, but this was a *long time*
 ago) until they are 50, then we can have, say, enough people in Egypt 
 to start building the pyramids within 100 years of the flood ending 
-and the Ark inhabitants repopulating the word. 
+and the Ark inhabitants repopulating the world. 
 
 Mind you, either the flood happened sooner than we think or the 
 Pyramid of Djoser (ca. 2650 BCE) was built later than we think, but we
