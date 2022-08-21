@@ -163,5 +163,6 @@ for z=1,10000 do
   tick()
   if z % 52 == 0 then
     report()
+    io.flush()
   end
 end
