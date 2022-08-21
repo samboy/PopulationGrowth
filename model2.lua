@@ -91,6 +91,7 @@ local function report()
       end
     end
   end
+  if momCount == 0 then momCount = 1 end
   print("Living: " .. tostring(living))
   print("Girls: " .. tostring(girls))
   print("Men: " .. tostring(men))
