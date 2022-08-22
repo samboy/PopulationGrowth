@@ -186,8 +186,11 @@ local function leaveArk()
 end
 
 -- OK, let’s run the simulation
+-- Number of years to run
+local yearsToRun = 200
+if arg and arg[1] then yearsToRun = tonumber(arg[1]) end
 leaveArk()
-for z=1,10400 do
+for z=1,(yearsToRun * 52) do
   tick()
   if z % 52 == 0 then
     report()
