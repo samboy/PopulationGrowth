@@ -92,10 +92,8 @@ ark:
 
 Now, assuming all of that, we get something like this:
 
-|      |      |
-|------|------|
 |Years after leaving ark|100|
-|Year|-2270|
+|------|------|
 |Population|21507526|
 |Living|21507526|
 |Girls|11180800|
@@ -147,10 +145,8 @@ need too many miracles from God after Noah gets off of the ark.
 
 After 100 years, we get something like this:
 
-|      |      |
-|------|------|
 |Years after leaving ark|100|
-|Year|-2270|
+|------|------|
 |Population|6148|
 |Living|3183|
 |Girls|1649|
@@ -163,10 +159,8 @@ After 100 years, we get something like this:
 
 Now, after 200 years, it’s like this:
 
-|      |      |
-|------|------|
 |Years after leaving ark|200|
-|Year|-2170|
+|------|------|
 |Population|1497724|
 |Living|770321|
 |Girls|401016|
@@ -176,6 +170,21 @@ Now, after 200 years, it’s like this:
 |Pregnant women|62069|
 |Avg. weeks pregnant|20.01662665743|
 |Children|598117|
+
+And, after 250 years:
+
+|Years after leaving ark|250|
+|------|------|
+|Population|23527241|
+|Living|12095202|
+|Girls|6289564|
+|Men|1297407|
+|Women|1405971|
+|Adults|2703378|
+|Pregnant women|975142|
+|Children per mother|9.5931598562882|
+|Avg. weeks pregnant|19.988195565364|
+|Children|9391824|
 
 So, given *reasonable* birth and death rates, we need at least 200
 years to have enough people in the world to make the pyramids of Egypt.
