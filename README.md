@@ -30,19 +30,19 @@ They didn’t show us their homework, of course:
 
 >https://creation.com/biblical-human-population-growth-model	
 
-I will point out their model only considers the Ark population of
+(I will point out their model only considers the Ark population of
 8 and the population reported at the time of the exodus from Egypt, and
 completely ignores the Pyramid of Djoser, which is estimated to be
 built in 2650 BCE or so.  I suppose one could argue the pyramids
 were all built *before* the flood, but not only [doesn’t creation.com
 make that argument](https://creation.com/adam-eve-noah-flood-ancient-egypt)
-(they argue Egypt is 100% post-flood), there are a number of Pyramids
+[they argue Egypt is 100% post-flood], there are a number of Pyramids
 in Egypt which postdate the date of the flood, never mind the Israelites
 were slaves in Egypt, and never mind there’s no evidence of a widespread
 cataclysmic flood in recorded ancient Egypt history -- the mythological
 Egyptian story of Re and Sekhmet is a flood of human blood, not water,
 and, unlike the story of Gilgamesh and the flood, does not tell the
-same essential flood story as Genesis does.
+same essential flood story as Genesis does.)
 
 So, with that background in mind, can I update the May 2004 model here in
 2022 to see how feasible populating the world is post-Ark.
